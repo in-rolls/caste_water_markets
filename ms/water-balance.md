@@ -8,7 +8,7 @@ These are exploratory checks prompted by the published result and our replicatio
 
 ## What the paper already checks
 
-Anderson's Table 1 compares village amenities, crop prices, and reported soil and water conditions. Sections VI.B–E discuss groundwater, tenancy and credit, land quality, and land size (pp. 258–261). The regressions include several corresponding controls. The criticism should therefore concern what these checks establish and what they miss, rather than claim that none were done.
+Anderson's Table 1 compares village amenities, crop prices, and reported soil and water conditions. Sections VI.B–E discuss groundwater, tenancy and credit, land quality, and land size (pp. 258–261). The regressions include several corresponding controls. These checks address observed village differences; their coverage and remaining limits are described below.
 
 Here are selected reproduced Table 1 comparisons. Positive differences mean a higher value in lower-caste-dominated villages. Intervals use the same village-clustered calculation as our replication; there is one observation per village. The CSV reports all 28 comparisons, standardized differences, sample sizes, and Holm-adjusted p-values for that family.
 
@@ -40,7 +40,7 @@ Within-district historical comparisons should report group means, differences wi
 
 ## Land ownership is a possible outcome too
 
-Longstanding differences in agricultural returns can change migration, settlement, land demand, ownership, tenancy and investment. Conversely, historical land institutions can influence caste dominance and current agricultural returns. The cross-section cannot determine which direction explains an association. Treating current ownership or land prices as automatically exogenous controls would assume away part of this question. Equal land prices could also coexist with different returns if land markets are restricted; lack of capitalization would need an institutional explanation rather than by itself refute the result.
+Longstanding differences in agricultural returns can change migration, settlement, land demand, ownership, tenancy and investment. Conversely, historical land institutions can influence caste dominance and current agricultural returns. The cross-section cannot determine which direction explains an association. Treating current ownership or land prices as automatically exogenous controls would assume away part of this question. Equal land prices could also coexist with different returns if land markets are restricted; interpreting the absence of capitalization requires information about those institutions.
 
 The following comparisons use the main regression's 1,295 lower-caste households in 90 villages. They include landless households. This differs from the paper's comparisons of plot size conditional on owning land and tenancy conditional on cultivation. Positive differences mean higher values in lower-caste-dominated villages.
 

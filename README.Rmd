@@ -27,11 +27,11 @@ entry <- function(model, term, column, table = ols) {
 }
 ```
 
-# Well, Actually
+# Caste and Groundwater Trade
 
-A replication and review of Siwan Anderson’s
+Replication and analysis of Siwan Anderson’s
 [“Caste as an Impediment to Trade”](https://www.aeaweb.org/articles?id=10.1257/app.3.1.239)
-(AEJ: Applied Economics, 2011). Groundwater, caste, and a second look at the evidence.
+(AEJ: Applied Economics, 2011).
 
 **The regressions reproduce a positive crop-sales association. Its size and causal explanation remain uncertain.**
 All `r nrow(comparison)` displayed coefficient/standard-error pairs checked agree within 0.1 rupee.
@@ -43,7 +43,7 @@ A correction for limited and uneven village information widens it to
 association, with substantial uncertainty about its magnitude.
 
 The outcome is money from crops sold per acre owned. Physical yields, profits and losses caused
-by caste barriers require additional evidence. The buyer interaction survives removing any one
+by caste barriers require additional evidence. The buyer interaction is positive and statistically significant after removing any one
 village, but the data do not establish that the village gap is larger for buyers than for pump owners.
 
 ![Buyer and owner interactions, with their direct comparison](figs/buyers-and-owners.png)
@@ -53,7 +53,7 @@ and their difference. All use the same 1,295 households and village-clustered 95
 A significant buyer interaction and an insignificant owner interaction do not establish a
 difference between them: the direct test has p = `r num(contrast$p[3], 3)`.
 
-The argument and all twelve review checks are in [the review](ms/review.md).
+The detailed estimates and interpretation are in [the review](ms/review.md).
 The [village balance and historical-data audit](ms/water-balance.md) shows what the
 existing comparisons rule out, which 1991 SHRUG variables are available, and why the
 missing survey-to-Census crosswalk prevents historical checks.
@@ -69,7 +69,7 @@ missing survey-to-Census crosswalk prevents historical checks.
 | IV interaction, village pairs bootstrap | 95% percentile interval [₹`r num(boot$percentile_lower[boot$term == "dlbuywater"], 0)`, ₹`r num(boot$percentile_upper[boot$term == "dlbuywater"], 0)`] | [Full-procedure bootstrap](output/iv_pairs_bootstrap.csv) |
 | Three published sample sizes | 1,295 printed; 1,127, 1,122, and 1,127 used | [Sample comparison](output/published_sample_comparison.csv) |
 
-**What does the 45% claim establish?** Anderson describes lower-caste water buyers as having
+## Outcome units and magnitude Anderson describes lower-caste water buyers as having
 45% higher agricultural yields in lower-caste-dominated villages (p. 253). The supplied program
 reproduces rupee coefficients but does not show the calculation behind that percentage. The paper's
 45% statement has no accompanying percentage confidence interval. We therefore report the
@@ -130,7 +130,7 @@ Both are wide, and they disagree about whether zero is excluded. The percentile 
 weak-instrument-robust confidence set. See the
 [IV results](output/iv_lal_bootstrap_summary.csv) and [explanation](ms/review.md).
 
-Run from the repository root:
+## Reproduce locally
 
 ```sh
 make deps
