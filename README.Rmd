@@ -168,4 +168,14 @@ See [sources/README.md](sources/README.md) for cached-file provenance.
 
 <!-- adjacent:start -->
 
+## 🔗 Adjacent Repositories
+
+- [in-rolls/caste_marriage_matching](https://github.com/in-rolls/caste_marriage_matching) — Replication and analysis of caste preferences, shortlisting and marriage matching in India
+- [in-rolls/caste_marriage_ads](https://github.com/in-rolls/caste_marriage_ads) — Replication and analysis of caste, income and responses to matrimonial advertisements in India
+- [in-rolls/quota_sanitation](https://github.com/in-rolls/quota_sanitation) — Replication and analysis of gender quotas, sanitation preferences and toilet provision in India
+- [in-rolls/caste_economic_overlap](https://github.com/in-rolls/caste_economic_overlap) — Economic distribution overlap and predictive information across caste groups
+- [in-rolls/land](https://github.com/in-rolls/land) — Distribution of Land in Bihar
+
+_Powered by [Adjacent](https://github.com/gojiplus/adjacent)_
+
 <!-- adjacent:end -->
