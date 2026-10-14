@@ -138,3 +138,7 @@ See [sources/README.md](sources/README.md) for cached-file provenance.
 [Village-classification sensitivity](ms/dominance-sensitivity.md) checks every single-village reassignment.
 [Completed IHDS replication](ms/ihds-replication.md): the main later-survey crop-value comparison is negative, with wide uncertainty; changing owned acreage to cultivated crop-season acreage changes the direction. It neither reproduces a stable positive gap nor decisively rules out the 45% benchmark. Run `make ihds-replication` with the local IHDS archive. [Data documentation](ms/external-data-dictionary.md) describes the IHDS measures and the missing geographic linkage needed for a land-record outcome replication.
 [Agy audit and our adjudication](ms/independent-audit.md).
+
+<!-- adjacent:start -->
+
+<!-- adjacent:end -->
