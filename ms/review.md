@@ -76,7 +76,7 @@ Table 3(2)’s district-adjusted coefficient has conventional clustered p = 0.04
 
 The displayed coefficients reproduce using these smaller samples, so this is a sample-reporting defect rather than a failure to recover the coefficients. The distinction matters when interpreting changes across columns. On the public-goods complete-case sample, the baseline village coefficient is already ₹287.05 before adding those controls; adding them increases it to ₹371.27. Comparing ₹566.53 with ₹371.27 across different samples confounds selection with adjustment.
 
-There are lesser table defects. Table 2’s landlord standard deviations print as 0.02 and 0.01; the data give 0.280 and 0.251. Its reported difference has the opposite sign to low minus high. The rows labelled adjusted R-squared in Tables 3–4 generally track ordinary R-squared; for example, Table 3(2) has R-squared 0.2792 but adjusted R-squared 0.2626. Table 4(1) additionally prints 0.31 where the supplied regression gives ordinary R-squared 0.3036. These do not overturn the principal coefficients.
+There are lesser table defects. Table 2’s landlord standard deviations print as 0.02 and 0.01; the data give 0.280 and 0.251. Its reported difference has the opposite sign to low minus high. The rows labeled adjusted R-squared in Tables 3–4 generally track ordinary R-squared; for example, Table 3(2) has R-squared 0.2792 but adjusted R-squared 0.2626. Table 4(1) additionally prints 0.31 where the supplied regression gives ordinary R-squared 0.3036. These do not overturn the principal coefficients.
 
 **The IV result is sensitive and its exclusions remain assumptions**
 
@@ -179,7 +179,7 @@ The economic objection is thus not that rational people can never suffer large l
 
 **How far would the estimated gain pay for hauling water?**
 
-A tanker calculation starts with volume. One millimetre of water over an acre requires about 4,047 litres. The table assumes 10,000-litre loads and applies illustrative additional water depths to one acre. These depths are scenarios, not measured irrigation requirements or agronomic recommendations. The calculation uses the complete Table 4(2) buyer village contrast, ₹763 in annual crop sales per owned acre, rather than the buyer interaction alone or the unsupported percentage conversion.
+A tanker calculation starts with volume. One millimeter of water over an acre requires about 4,047 liters. The table assumes 10,000-litre loads and applies illustrative additional water depths to one acre. These depths are scenarios, not measured irrigation requirements or agronomic recommendations. The calculation uses the complete Table 4(2) buyer village contrast, ₹763 in annual crop sales per owned acre, rather than the buyer interaction alone or the unsupported percentage conversion.
 
 | Additional water depth | Litres per acre | Whole 10,000-litre loads | Extra cost per load the ₹763 sales gain could cover |
 |---|---:|---:|---:|
